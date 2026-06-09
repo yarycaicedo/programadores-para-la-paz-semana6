@@ -1,0 +1,22 @@
+Ejemplo de JSON para reportar una incidencia comunitaria
+
+Ruta: POST /incidencia
+
+JSON que podría enviar un ciudadano:
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+Respuesta esperada del servidor:
+{
+  "mensaje": "Incidencia registrada",
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+Explicación:
+Este ejemplo muestra cómo un ciudadano podría enviar información estructurada sobre una 
+situación comunitaria. El servidor recibe los datos mediante req.body y los procesa para 
+confirmar el registro de la incidencia. Esta estructura permite organizar reportes de manera 
+clara y ordenada para que puedan ser atendidos por las autoridades correspondientes.

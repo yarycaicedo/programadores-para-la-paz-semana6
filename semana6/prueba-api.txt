@@ -1,0 +1,22 @@
+Prueba de la API - Semana 6
+
+Ruta probada: POST /registro
+
+JSON enviado:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta del servidor:
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Explicación:
+El servidor recibió correctamente los datos enviados en formato JSON mediante una petición POST. 
+Express utilizó express.json() para leer el cuerpo de la petición y accedió a los datos 
+mediante req.body.nombre y req.body.mensaje. Luego respondió con un objeto JSON confirmando 
+que los datos fueron recibidos correctamente.

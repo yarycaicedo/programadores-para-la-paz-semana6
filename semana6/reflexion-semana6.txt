@@ -1,0 +1,20 @@
+Reflexión de la Semana 6
+
+Es importante que las plataformas tecnológicas puedan recibir reportes e información enviada 
+por los ciudadanos de forma estructurada porque permite organizar, procesar y dar seguimiento 
+a las necesidades de una comunidad de manera clara y eficiente. Cuando la información llega 
+en formato JSON mediante peticiones POST, el servidor puede identificar exactamente qué tipo 
+de situación se está reportando y quién la reporta, lo que facilita la trazabilidad y el 
+control de cada caso.
+
+Además, recibir datos estructurados reduce los errores de interpretación, ya que cada campo 
+tiene un nombre y un valor definido. Esto es especialmente útil en contextos comunitarios 
+donde se necesita registrar incidencias, propuestas o alertas de forma ordenada. Una 
+plataforma que recibe información estructurada puede generar reportes, estadísticas y 
+hacer seguimiento de situaciones sin perder información importante.
+
+Desde el punto de vista de la participación ciudadana, estas herramientas permiten que 
+cualquier persona pueda reportar una situación de forma sencilla, segura y verificable, 
+fortaleciendo la transparencia y la comunicación entre la comunidad y las instituciones. 
+La tecnología al servicio de la comunidad debe ser clara, accesible y responsable con 
+la información que recibe y procesa.
